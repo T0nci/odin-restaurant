@@ -1,0 +1,2 @@
+# Don't track the giant node_modules file
+node_modules/
