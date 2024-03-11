@@ -68,10 +68,17 @@ meter {
   box-sizing: border-box;
 }
 
+:root {
+  --header-color: #222831;
+  --body-color: #31363F;
+  --nav-btn-hover: #191d24;
+  --nav-btn-active: #12141a;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #EEEEEE;
-  background-color: #31363F;
+  background-color: var(--body-color);
   min-height: 100vh;
 }
 
@@ -81,7 +88,7 @@ body {
 }
 
 header {
-  background-color: #222831;
+  background-color: var(--header-color);
 }
 
 .nav-bar {
@@ -116,15 +123,15 @@ header {
 }
 
 .nav-button:hover {
-  background-color: #191d24;
+  background-color: var(--nav-btn-hover);
 }
 
 .nav-button:active {
-  background-color: #12141a;
+  background-color: var(--nav-btn-active);
 }
 
 #content {
-  background-color: #31363F;
+  background-color: var(--body-color);
 }
 
 #content > .container {
