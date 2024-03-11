@@ -111,12 +111,17 @@ header {
   padding: 1.5rem 0.5rem;
 }
 
+.nav-button.active {
+  /* text-shadow: 0 0 10px white; */
+  background-color: #31363F;
+}
+
 .nav-button:hover {
   background-color: #191d24;
 }
 
-.nav-button.active {
-  text-shadow: 0 0 10px white;
+.nav-button:active {
+  background-color: #12141a;
 }
 
 #content {

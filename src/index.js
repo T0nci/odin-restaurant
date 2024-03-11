@@ -1,1 +1,3 @@
-console.log("Success!");
+import { populateHome } from './home';
+
+populateHome();
