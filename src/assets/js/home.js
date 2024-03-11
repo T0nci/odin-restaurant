@@ -1,5 +1,6 @@
-import './style.css';
-import homeImg from './home-pic.jpg';
+import '../css/style.css';
+import homeImg from '../img/home-pic.jpg';
+
 
 function populateHome() {
   const contentDiv = document.querySelector('#content');
@@ -24,5 +25,6 @@ function populateHome() {
   containerDiv.appendChild(homeImage);
   contentDiv.appendChild(containerDiv);
 }
+
 
 export { populateHome };
