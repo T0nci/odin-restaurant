@@ -216,3 +216,31 @@ header {
   padding: 0.25rem 1rem;
   cursor: pointer;
 }
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  '. map'
+  '. map';
+  gap: 2rem;
+}
+
+.map {
+  width: 300px;
+  height: auto;
+
+  grid-area: map;
+  place-self: center;
+}
+
+.location,
+.contact {
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  
+  place-self: center;
+}
